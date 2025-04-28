@@ -57,625 +57,475 @@ Upload to GitHub Pages for free hosting.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Devasanjay N - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar" id="">
-        <ul>
-            <li id="title"><a href="#" style="font-size: x-large;">Portfolio</a></li>
-            <li><a href="#home">About</a></li>
-            <li><a href="#skill">Skills</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact As</a></li>
-            
+
+    <nav class="navbar">
+        <div class="logo">Devasanjay N</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Home -->
-    <section id="home">
-        <div class="main">
-            <h1 class="title"><span>Hello , </span>I am<br>DEVASANJAY N</h1>
-            <button class="btn">Let's See</button>
-            <div class="social-icons">
-                <a href="https://github.com/VIKRAMK21062005" class="social-icon"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/devasanjaynatarajan/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.linkedin.com/in/devasanjaynatarajan/" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <section id="home" class="section home-section">
+        <div class="content">
+            <h1>Hello, I'm <span class="typing"></span></h1>
+            <p>Passionate Developer | Creative Thinker | Problem Solver</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>I am a Computer Science Engineer who believes in crafting solutions with creativity, precision, and excellence. 
+        With a solid foundation in programming and design, I strive to build products that not only work but inspire.</p>
+        <div class="about-cards">
+            <div class="about-card">
+                <h3>Web Development</h3>
+                <p>Creating responsive, user-friendly websites and applications.</p>
             </div>
-            <div class="img">
-                <img src="images/its-me.png" alt="">
+            <div class="about-card">
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive interfaces focused on great user experiences.</p>
+            </div>
+            <div class="about-card">
+                <h3>Cloud & DevOps</h3>
+                <p>Working with cloud technologies to deliver scalable solutions.</p>
             </div>
         </div>
     </section>
-    <section id="Project">
-        <div class="main">
-            <div class="content">
-                
-            </div>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">MongoDB</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Firebase</div>
         </div>
+    </section>
 
-    </section>  
-
-    <!-- Skills -->
-     <section id="skill">
-            <div class="s-space">
-                <div class="s-head" id="s-title">
-                    <h2><a href="#">Skills</a></h2>
-                </div>
-                <div class="s-container">
-                    <div class="s-title">
-                        <h3>Front-End</h3>
-                        <div class="content">
-                            <li>
-                                <ul>HTML</ul>
-                                <ul>CSS</ul>
-                                <ul>JAVASCRIPT</ul>
-                                <ul>BOOTSTRAP</ul>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="s-title">
-                        <h3>Back-End</h3>
-                        <div class="content">
-                            <li>
-                                <ul>Node.js</ul>
-                                <ul>Spring Boot</ul>
-                                <ul>Express.js</ul>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="s-title">
-                        <h3>DataBase</h3>
-                        <div class="content">
-                            <li>
-                                <ul>MySQl</ul>
-                                <ul>SQL</ul>
-                                <ul>Mango-DB</ul>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="s-title">
-                        <h3>Programming Language</h3>
-                        <div class="content">
-                            <li>
-                                <ul>C</ul>
-                                <ul>PYTHON</ul>
-                                <ul>JAVA</ul>
-                            </li>
-                        </div>
-                    </div>
+    <section id="experience" class="section timeline-section">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Frontend Developer Intern</h3>
+                    <span>May 2024 - August 2024</span>
+                    <p>Worked on enhancing UI/UX for client projects using React and TailwindCSS.</p>
                 </div>
             </div>
-     </section>
-    
-    <!-- Project -->
-
-    <section class="project" id="project">
-        <div class="p-space">
-            <div class="p-head">
-                <h2><a href="#">Projects</a></h2>
-            </div>
-            <div class="p-container">
-                <div class="p-title">
-                    <img src="images/project1.png" alt="Task Management">
-                    <h3>Alumni Bridge</h3>
-                    <div class="content">
-                        <p>Alumni Bridge is a web platform connecting students and alumni for networking, mentorship, and career opportunities.
-                        </p>
-                    </div>
-                </div>
-                <div class="p-title">
-                    <img src="images/project2.png" alt="Portfolio Website">
-                    <h3>Movie Recommendation System</h3>
-                    <div class="content">
-                        <p>A Movie Recommendation System that suggests films based on user preferences and viewing history using machine learning.</p>
-                    </div>
-                </div>
-                <div class="p-title">
-                    <img src="images/project3.png" alt="Weather App">
-                    <h3>Weather App</h3>
-                    <div class="content">
-                        <p>A weather forecast app that fetches real-time weather data using an API.</p>
-                    </div>
-                </div>
-                <div class="p-title">
-                    <img src="images/image.jpg" alt="Chat Application">
-                    <h3>Chat Application</h3>
-                    <div class="content">
-                        <p>A real-time messaging app using WebSockets for instant communication.</p>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Backend Developer - Freelance</h3>
+                    <span>January 2025 - Present</span>
+                    <p>Developed scalable REST APIs using Node.js and MongoDB for startups.</p>
                 </div>
             </div>
         </div>
     </section>
-    
-      <!-- footer   -->
-       <footer>
-        <div class="f-begin" id="contact">
-            <div class="heading"><h2><a href="#">Contact Me</a></h2></div>
-            <div class="f-btn">
-                <a href="resume.pdf" download class="btn" id="resumeBtn">Download Resume</a>
-                <a href="saveetha@gmail.com" class="btn"> Contact Me</a>
-                <a href="linkned-In" target="_blank" class="btn">LinkedIn</a>
 
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Alumni Bridge</h3>
+                <p>Connecting students and alumni for mentorship and guidance.</p>
+            </div>
+            <div class="project-card">
+                <h3>Smart Weather App</h3>
+                <p>Live weather forecasts with a beautiful and responsive interface.</p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Builder</h3>
+                <p>A no-code platform for creating beautiful portfolios.</p>
             </div>
         </div>
-       
-        <button id="backtop"><a href="#">Back to Top</a>
-            </button><br><br>
-            <div class="f-just">
-                <span>
-                    Created By <a href="#"> &copy --Vikram K</a> | <span class="far fa-copyright">2025 If You Doubt Flat Out!</span>
-                </span>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2>Achievements</h2>
+        <ul class="achievements-list">
+            <li>Won 1st Place in National Hackathon 2024</li>
+            <li>Certified AWS Cloud Practitioner</li>
+            <li>Built an AI Chatbot used by 500+ users</li>
+        </ul>
+    </section>
+
+    <section id="testimonials" class="section">
+        <h2>Testimonials</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <p>"Devasanjay delivered beyond expectations. Highly recommend for any web projects!"</p>
+                <h4>- Client A</h4>
             </div>
-        
-       </footer>
-       <script src="script.js"></script>
+            <div class="testimonial-card">
+                <p>"Extremely professional, creative, and timely. Looking forward to more collaborations."</p>
+                <h4>- Client B</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <h2>Contact Me</h2>
+        <p>Open to freelance, internships, and full-time opportunities!</p>
+        <div class="contact-buttons">
+            <a href="mailto:devasanjay@example.com" class="btn">Email Me</a>
+            <a href="https://www.linkedin.com" target="_blank" class="btn">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Devasanjay N | Crafted with passion ❤️</p>
+    </footer>
+
+    <script>
+        const typingText = ["Devasanjay", "Web Developer", "Creative Coder", "Tech Enthusiast"];
+        let count = 0;
+        let index = 0;
+        let currentText = '';
+        let letter = '';
+
+        (function type() {
+            if (count === typingText.length) {
+                count = 0;
+            }
+            currentText = typingText[count];
+            letter = currentText.slice(0, ++index);
+
+            document.querySelector('.typing').textContent = letter;
+            if (letter.length === currentText.length) {
+                count++;
+                index = 0;
+                setTimeout(type, 800);
+            } else {
+                setTimeout(type, 150);
+            }
+        }());
+    </script>
+
 </body>
 </html>
+
+
 ```
 #### style.css
 ```
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Sevillana&display=swap');
-
-:root{
-    --font1:'Anton',sans-serif;
-    --font2:'Courier New', Courier, monospace;
-}
-
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    font-family:var(--font1);
-    list-style: none;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    position: relative;
-    
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #f5f7fa, #d7e8f7);
+    color: #333;
+    overflow-x: hidden;
 }
 
-
-.navbar ul{
+/* Navbar */
+.navbar {
+    background: #3a86ff;
+    padding: 1rem 2rem;
     display: flex;
-    list-style: none;
-    margin: 20px 0px;
-    width: 100%;
-    padding: 10px 0px;
     justify-content: space-between;
-}
-
-.navbar ul li a{
-    color: white;
-    padding: 8px 25px;
-     font-family: sans-serif;
-    font-size: 1.1rem;
-    font-weight:bold;
-}
-
-
-#title{
-    margin-right: auto;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-#title span{
-    font-size: x-large;
-    font-weight: 600;
-}
-.navbar ul #title{
-    left: 0;
-    text-align: left;
-    color: rgb(215, 185, 11);
-    position: relative;
-}
-
-
-.navbar ul li a:hover{
-    background-color: white;
-    color: black;
-    border-radius: 50px;
-    box-shadow: 0 0 10px white;
-}
-
-/* Home */
-
-#home{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
     align-items: center;
-    color: white;
-    background: url('images/image.jpg') no-repeat center center/cover;
-}
-
-#home .main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    gap: 20px;
-}
-.title {
-    font-family: sans-serif;
-    font-size: 3rem;
-    text-align: left; 
-    margin: 0 20px;
-    width: max-content;
-}
-.img img {
-    width: 490px;
-    height: 480px;
-    opacity: 0; 
-    transition: opacity 0.5s ease-in-out;
-    border-radius: 50%;
-}
-
-.btn {
-    padding: 12px 20px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 25px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.btn:hover ~ .img img {
-    opacity: 1; 
-    flex-direction: row-reverse;
-}
-
-.social-icons {
-    display: flex;
-}
-
-.social-icon {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(7, 7, 7);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-    font-size: 1.2rem;
-    color: white;
-    box-shadow: 0 0 10px;
-}
-
-.social-icon:hover {
-    background-color: gray;
-    color: white;
-    transform: translateY(-3px);
-    
-} 
-
-/* skill */
-
-#skill {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: black;
-    color: white;
-    
-}
-
-.project .s-space{
+    position: sticky;
     top: 0;
+    z-index: 1000;
 }
-.s-head h2 {
+
+.logo {
     font-size: 2rem;
-    color: yellow;
-    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 700;
 }
 
-.s-head h2 a {
-    text-decoration: none;
-    color: yellow;
-}
-
-.s-head h2 a:hover {
-    color: orange;
-}
-
-.s-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    font-family: var(--font2);
-}
-
-.s-title {
-    background: rgb(20, 20, 20);
-    padding-top: 15px;
-    width: 280px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgb(9, 208, 29);
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-}
-
-
-.s-title h3 {
-    margin-bottom: 10px;
-    color: cyan;
-    font-family: var(--font2);
-}
-.s-title .content ul li {
-    font-size: 14px;
-    color: white;
-    list-style: circle;
-    font-family: var(--font2);
+.nav-links {
     list-style: none;
-}
-
-.s-title .s-head h2{
-    color: orange;
-}
-.s-title .content p {
-    font-size: 14px;
-    color: white;
-}
-/* project */
-
-.project {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: black;
-    color: white;
-}
-
-.project .p-space{
-    top: 0;
-}
-.p-head h2 {
-    font-size: 2rem;
-    color: yellow;
-    margin-bottom: 30px;
-}
-
-.p-head h2 a {
-    text-decoration: none;
-    color: yellow;
-    transition: color 0.3s ease-in-out;
-}
-
-.p-head h2 a:hover {
-    color: orange;
-}
-
-.p-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
-.p-title {
-    background: rgb(20, 20, 20);
-    padding: 15px;
-    width: 280px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px yellow;
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffbe0b;
+}
+
+/* Sections */
+.section {
+    padding: 100px 20px;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
 
-.p-title:hover {
+.section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #3a86ff;
+    position: relative;
+}
+
+.section h2::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #ffbe0b;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+
+.section p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Home Section */
+.home-section {
+    min-height: 90vh;
+    background: linear-gradient(135deg, #3a86ff, #8338ec);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.typing {
+    color: #ffbe0b;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #ffbe0b;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: #fff;
+    color: #3a86ff;
     transform: scale(1.05);
 }
 
-.p-title img {
-    width: 100%;
-    height: 180px;
+/* About Section */
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.about-card {
+    background: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Skills Section */
+.skills-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #ffffff;
+    padding: 15px;
     border-radius: 10px;
-    object-fit: cover;
-    margin-bottom: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
-.p-title h3 {
-    margin-bottom: 10px;
-    color: cyan;
+.skill-card:hover {
+    background: #d0e8ff;
+    transform: translateY(-8px);
 }
 
-.p-title .content p {
-    font-size: 14px;
-    color: white;
-}
-
-/* footer */
-
-footer {
-    background: black;
-    padding: 20px;
-    color: white;
-    text-align: center;
+/* Timeline Section */
+.timeline {
+    margin-top: 50px;
     position: relative;
-    font-family: sans-serif;
-    font-weight: 300;
 }
 
-footer span a {
-    color: red;
-    font-weight: bold;
-    text-decoration: none;
-    
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #3a86ff;
+    transform: translateX(-50%);
 }
-footer .f-just{
-    background-color: gray;
+
+.timeline-item {
+    margin: 30px 0;
+    position: relative;
+    width: 50%;
     padding: 20px;
 }
 
-footer .f-begin{
-    font-family: 'Courier New', Courier, monospace;
+.timeline-item:nth-child(odd) {
+    left: 0;
 }
 
-.f-btn {
-    margin-top: 15px;
+.timeline-item:nth-child(even) {
+    left: 50%;
 }
 
-.f-btn .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: red;
-    color: white;
-    font-size: 1rem;
-    font-weight:lighter;
-    border-radius: 25px;
-    text-decoration: none;
-    margin: 5px;
-    transition: 0.3s ease-in-out;
-    font-family: 'Courier New', Courier, monospace;
+.timeline-dot {
+    width: 15px;
+    height: 15px;
+    background: #ffbe0b;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.f-btn .btn:hover {
-    background: yellow;
-    color: black;
-    box-shadow: 0 0 10px white;
+/* Projects */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
 }
 
-#backtop {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: white;
-    color: black;
-    border: none;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.4s ease;
 }
 
-#backtop:hover {
-    background: yellow;
-    color: black;
-    box-shadow: 0 0 10px white;
+.project-card:hover {
+    transform: translateY(-10px);
+    background: #ffe066;
 }
 
-
-@media screen and (max-width: 600px) {
-    /* Navbar */
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar ul li {
-        margin: 10px 0;
-    }
-
-    /* Home Section */
-    .main {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .main h1 {
-        font-size: 24px;
-    }
-
-    .btn {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-
-    .social-icons {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img img {
-        width: 80%;
-        margin-top: 20px;
-    }
-
-    /* Skills & Projects */
-    .s-container, 
-    .p-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .p-title img {
-        width: 100%;
-    }
-
-    /* Footer */
-    .f-begin {
-        text-align: center;
-    }
-
-    .f-btn {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .f-btn .btn {
-        margin-bottom: 10px;
-    }
-
-    #backtop {
-        width: 100%;
-    }
+/* Achievements */
+.achievements-list {
+    list-style: none;
+    margin-top: 40px;
+    font-size: 1.2rem;
 }
+
+.achievements-list li {
+    margin: 10px 0;
+}
+
+/* Testimonials */
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact-buttons {
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background: #3a86ff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+}
+
 ```
-#### script.js
-```
-document.addEventListener("DOMContentLoaded", function () {
-  const seeBtn = document.querySelector(".btn");
 
-  seeBtn.addEventListener("click", function () {
-      alert("Hello, I am Vikram K, a passionate Full-Stack Developer! 🚀");
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  let resumeBtn = document.getElementById("resumeBtn");
-  resumeBtn.onclick = function (event) {
-      event.preventDefault();
-      alert("Resume is not available for download at the moment.\n\nWhich resume do you want? 😂\nCall this number: 100 📞");
-  };
-});
-```
 ## OUTPUT
 
 ### NavBar:
 
-![image](https://github.com/user-attachments/assets/35885ac0-8d18-4bb6-95c3-9b738e33c0f7)
+![Screenshot (68)](https://github.com/user-attachments/assets/fe02a553-02bb-4239-bb74-735eba99ba84)
+
 
 ### About:
 
-![image](https://github.com/user-attachments/assets/b451e3b8-fca9-4f36-b9f8-26eec3e7e13f)
+![Screenshot (69)](https://github.com/user-attachments/assets/7d7c780d-8fc7-4d33-8380-c64fd38f1c91)
+
 
 ### Skills & Projects:
 
-![image](https://github.com/user-attachments/assets/f7d7acb6-7168-4233-bdcd-0fd01a0bbab1)
+![Screenshot (70)](https://github.com/user-attachments/assets/b9476c2e-50d0-4fbe-bb40-2100cc6dbc42)
+
+![Screenshot (71)](https://github.com/user-attachments/assets/2fc1ea66-9357-4b49-a733-4b4c5768b3f2)
+
 
 ### Contact:
 
-![Screenshot 2025-03-23 220221](https://github.com/user-attachments/assets/706dc014-8a14-4259-8c4a-1d05533e829e)
+![Screenshot (72)](https://github.com/user-attachments/assets/5c92c125-ca89-44ab-a539-e7ee835d2e5e)
+
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
