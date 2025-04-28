@@ -1,8 +1,8 @@
 # MDAP-EX_01-Portfolio
 ## Date:
 
-### Name : VIKRAM K
-### Reg No : 212222040180
+### Name : DEVASANJAY N
+### Reg No : 212223040032
 ## AIM
 To create a Portfolio using HTML and CSS.
 
